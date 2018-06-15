@@ -59,7 +59,7 @@ app.get('/carochao', (request, response) => {
 });
 //Tem que ser sempre acima de 1024 (porque já estão a ser usadas para outro serviços)
 //Portas do IP?
-app.listen(3000);
+app.listen(3100);
 
 //TPC Formar grupos e decidir o que extrair do darksky. como é que o handle bar faz parcials (parciais). Pensar na extrutura da página e o que vai ficar do lado do cliente e o que vai ficar do lado do servidor.
 //boothstrap gestor de página (extraido atravez de um cdm?) getbootstrap.com
